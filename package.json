@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.13.8",
+    "@mdx-js/react": "^3.1.1",
+    "@mdx-js/rollup": "^3.1.1",
     "@storybook/react-vite": "^9.1.9",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-devtools": "^0.7.0",
