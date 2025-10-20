@@ -6,9 +6,7 @@ export const Route = createFileRoute('/blog/$slug')({
     loader: ({ params }) => {
         const slug = params.slug
         const post = allPosts.find((p) => p._meta.path === slug)
-
         if (!post) throw notFound()
-
         return { post }
     },
     component: RouteComponent,
@@ -16,11 +14,10 @@ export const Route = createFileRoute('/blog/$slug')({
 
 function RouteComponent() {
     const { post } = Route.useLoaderData()
+
     return (
-        <section>
-            <article>
-                <Mdx code={post.mdx} />
-            </article>
-        </section>
+        <article>
+            <Mdx code={post.mdx} />
+        </article>
     )
 }
