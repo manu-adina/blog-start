@@ -1,8 +1,8 @@
 export default function Profile() {
     return (
         <div>
-            <img></img>
-            <h1>Hello World</h1>
+            <img src="" />
+            <h1>Manu Adina</h1>
         </div>
     )
 }
