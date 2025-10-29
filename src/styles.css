@@ -1,5 +1,15 @@
 @import 'tailwindcss';
 
 @theme {
-    --font-mono: 'Inter Variable', sans-serif;
+    --color-foreground: white;
+    --color-background: black;
+    --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+    body {
+        color: var(--color-foreground);
+        background-color: var(--color-background);
+        font-family: var(--font-sans);
+    }
 }

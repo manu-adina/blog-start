@@ -49,7 +49,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
     return (
-        <html className="bg-stone-900" lang="en">
+        <html className="bg-neutral-950" lang="en">
             <head>
                 <HeadContent />
             </head>
