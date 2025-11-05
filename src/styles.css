@@ -4,6 +4,7 @@
     --color-foreground: white;
     --color-background: black;
     --font-sans: 'Inter', system-ui, sans-serif;
+    --font-serif: 'Playfair', serif;
 }
 
 @layer base {
@@ -11,5 +12,10 @@
         color: var(--color-foreground);
         background-color: var(--color-background);
         font-family: var(--font-sans);
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: var(--font-serif);
     }
 }

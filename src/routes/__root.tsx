@@ -7,7 +7,8 @@ import {
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
-import fontCss from '@fontsource-variable/inter?url'
+import interCss from '@fontsource-variable/inter?url'
+import playfairCss from '@fontsource-variable/playfair?url'
 import appCss from '../styles.css?url'
 
 import TanStackQueryDevtools from '../integrations/tanstack-query/devtools'
@@ -35,7 +36,11 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         links: [
             {
                 rel: 'stylesheet',
-                href: fontCss,
+                href: interCss,
+            },
+            {
+                rel: 'stylesheet',
+                href: playfairCss,
             },
             {
                 rel: 'stylesheet',
