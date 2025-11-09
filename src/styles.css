@@ -3,6 +3,15 @@
 @theme {
     --color-foreground: white;
     --color-background: black;
+    --color-primary: white;
+    --color-primary-foreground: black;
+    --color-accent: #262626;
+    --color-accent-foreground: white;
+    --color-muted: #171717;
+    --color-muted-foreground: #a3a3a3;
+    --color-border: #404040;
+    --color-input: #262626;
+    --color-ring: #525252;
     --font-sans: 'Inter', system-ui, sans-serif;
     --font-serif: 'Playfair', serif;
 }
